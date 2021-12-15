@@ -7,15 +7,15 @@
   #include <ESP8266WiFi.h>
   #endif
   #include <ESP_Mail_Client.h>
-  #define WIFI_SSID "A1.C724"//Wi-Fi name
-  #define WIFI_PASSWORD "A1C72412"//Wi-Fi password
+  #define WIFI_SSID <Wi-Fi Name>//Wi-Fi name
+  #define WIFI_PASSWORD <Wi-Fi password>//Wi-Fi password
   #define SMTP_HOST "smtp.gmail.com"//for SMTP protocol
   #define SMTP_PORT 465
   /* The sign in credentials */
-  #define AUTHOR_EMAIL "mstackecare@gmail.com"//M5Stacks's email
-  #define AUTHOR_PASSWORD "1234ecare"//The email's password  
+  #define AUTHOR_EMAIL <Device email>//M5Stacks's email
+  #define AUTHOR_PASSWORD <Device email password provided with the report>//The email's password  
   /* Recipient's email*/
-  #define RECIPIENT_EMAIL "zshegenov@gmail.com"  
+  #define RECIPIENT_EMAIL <Recepient email (relatives of a person)>  
   /* The SMTP Session object used for Email sending */
   SMTPSession smtp;
   /* Callback function to get the Email sending status */
